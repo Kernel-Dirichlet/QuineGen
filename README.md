@@ -18,7 +18,7 @@ A quine is a self-replicating program - a computer program that takes no input a
 1. **The 128 quine relay**: This is the largest quine relay project where 128 languages are used to generate a quine from the original source language, but with the logic encoded and passed through each of the 128 languages. The quines do not have the restriction that they must remain valid if copied N-times   - GitHub Link: [128 quine relay](https://github.com/mame/quine-relay)
 
 2. **Snake over Quine**: This repository showcases a unique C++ quine which serves as a background for the popular game "Snake"
-    - GitHub Link: [Snake over C++ quine background] https://github.com/taylorconor/quinesnake 
+    - GitHub Link: [Snake over C++ quine](https://github.com/taylorconor/quinesnake)  
 
 ## Significance of Generating Quines of Arbitrary Length:
 
