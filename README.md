@@ -35,3 +35,17 @@ Generating quines of arbitrary length highlights significant properties of a giv
 ## Contributing to this Repository 
 
 - This repository will have automated tests that will check all quines submitted to the quines template are indeed quines and remain so when copied N-times. For now, interesting examples (quines that feature techniques not pulled from StackExchange or elsewhere) take priority. 
+
+## How-to Guide
+
+The n-line quine generator works from the command line, simply follow the arguments templates below. This will remain consistent. 
+
+```
+git clone https://github.com/Kernel-Dirichlet/QuineGen
+cd /QuineGen/src
+python nline_quine.py --lines <number_of_lines> --lang <language> --template <template_tag>
+```
+Example: 
+
+```
+python3 nline_quine.py --lines 50 --lang python --template exec 
